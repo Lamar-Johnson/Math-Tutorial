@@ -2,9 +2,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Maths Website</title>
+        <!-- meta is a self enclosing tag -->
+        <meta charset="utf-8"> 
+        
+        <title>Math Tutorial Website</title>
+        
+        <!-- give the metada a name -->
+        <!-- content equal to width=device-width means the content of the page changes with the width -->
+        <!-- inital scale means inital zoom level is going to be on -->
+        <!-- the user-scalable property equal to yes allows the viewer to zoom in and out -->
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <!-- the line below links the external CSS file to index.html -->
         <link rel="stylesheet" href="styling.css">
     </head>
     
@@ -12,9 +21,12 @@
         <div id="container">
             <div id="header">
                 <div id="brand">
-                    <h1><a href="#">Maths the Fun Way</a></h1>
+                    <!-- I believe href = "#" establishes a link with no path -->
+                    <!-- https://stackoverflow.com/questions/16933700/what-does-link-href-do -->
+                    <h1><a href="#">Math the Fun Way</a></h1>
                 </div>
                 <div id="searchBox">
+                    <!-- The get method will show the results in the address bar -->
                     <form method="get">
                         <input type="text" class="text">
                         <input type="submit" value="Search a topic" class="submit">
@@ -34,8 +46,8 @@
                 </ul>
             </div>
             <div id="introduction">
-                <h3>Do you need help with Maths?</h3>
-                <p>Our website uses an interactive methodology of teaching Maths using the latest web technologies. Your learning experience with us is guaranteed to be intuitive and fun. You will have fun while learning. This is the secret of our outstanding results. Check reviews from our students.</p>
+                <h3>Do you need help with Math?</h3>
+                <p>Our website uses an interactive methodology of teaching Math using the latest web technologies. Your learning experience with us is guaranteed to be intuitive and fun. You will have fun while learning. This is the secret of our outstanding results. Check reviews from our students.</p>
             </div>
             <div id="leftsidebar" class="sidebar">
                 <h3>Go to:</h3>
@@ -69,7 +81,7 @@
             <div class="clear"></div>
             <footer class="footer">
                 <div>
-                    <p>Company name. Copyright &copy; 2010-2015</p>
+                    <p>Company name. Copyright &copy; 2010-2017</p>
                 </div>
             </footer>
         </div> 
